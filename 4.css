@@ -1,0 +1,758 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+
+html,
+body{
+width: 100%;
+overflow-x: hidden;
+}
+
+.container {
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 100%;
+}
+.navigasi  {
+    background-color: #222;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0  7px 15px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.ulnavbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+}
+
+.linavbar {
+    list-style-type: none;
+    padding: 12px;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.linavbar:hover {
+    background-color: green;
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+    border-radius: 60px;
+    border-bottom: 2px solid white;
+    color: black;
+}
+
+.linavbar:active {
+    background-color: greenyellow;
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+    border-radius: 60px;
+    border-bottom: 2px solid white;
+    color: black;
+}
+
+
+.anavbar {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.anavbar:hover {
+    color: black;
+}
+
+.foto {
+    width: 250px;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    border: 6px solid black;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+-moz-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+}
+.foto:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    transition: .5s;
+}
+
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+}
+
+.firstname {
+    color: white;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.lastname {
+    padding-left: 5px;
+    color: greenyellow;
+}
+
+.yeh {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f7f7f7;
+    font-weight: 300;
+    -webkit-text-fill-color: black;
+   -webkit-text-stroke: 1px white;
+}
+
+
+.tentang {
+    background-color: #f7f7f7;
+    width: 700px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+    -webkit-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+-moz-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+font-weight: 600;
+font-size: 20px;
+    padding: 15px;
+}
+
+.tentang:hover {
+   width: 750px;
+   transition: .5s;
+   color: white;
+   background-color: #333;
+   padding: 25px;
+   border-radius: 10px;
+}
+
+.tentang:active {
+    width: 750px;
+   transition: .5s;
+   color: white;
+   background-color: #333;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+
+.h1tentang {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tentang hr {
+    border: 1px solid black;
+    width: 150px;
+    margin: auto;
+}
+.tentang p {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.biodata {
+    width: 700px;
+    height: 650px;
+    background-color: #f7f7f7;
+    margin: 20px auto;
+    -webkit-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+-moz-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+
+.hrbiodata {
+    border: 1px solid black;
+    width: 200px;
+    margin: 5px auto;
+
+}
+
+.hrhobi {
+    border: 1px solid black;
+    width: 100px;
+    margin: 5px auto;
+} 
+
+.ulbiodata {
+    padding-left: 15px;
+}
+
+.biodata:hover {
+    width: 800px;
+   transition: .5s;
+   color: #f7f7f7;
+   background-color: teal;
+   padding: 25px;
+   border-radius: 10px;
+}
+.biodata:active {
+    width: 800px;
+   transition: .5s;
+   color: #f7f7f7;
+   background-color: teal;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+
+.biodata h2 {
+   text-align: center;
+
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 30px;
+}
+
+.biodata ul {
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+
+
+.p2,.p3 {
+    text-align: center;
+}
+
+.hobi {
+    margin-top: 20px;
+}
+
+.kontener2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.judulpendidikan {
+    text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   -webkit-text-fill-color: black;
+   -webkit-text-stroke: 1px white;
+   font-size: 35px;
+}
+.hrpendidikan {
+    width: 325px;
+    margin: 5px auto;
+    border: 1px solid black;
+}
+
+.sd {
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-image: url(./img/sd1.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.sd:hover {
+    width: 325px;
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+}
+
+.smp {
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-image: url(./img/smp1.png);
+    background-size: cover;
+    text-align: center;
+    border-radius: 20px;
+}
+.smp:hover {
+    width: 325px;
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+}
+
+.sma {
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-image: url(./img/alfalah.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.sma:hover {
+    width: 325px;
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+}
+
+
+
+.judulsd {
+    text-align: center;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    border-bottom: 2px solid black ;
+}
+
+.tpsd {
+    text-align: center;
+    margin-top: 360px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.judulsmp {
+    text-align: center;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    border-bottom: 2px solid black ;
+}
+
+.tpsmp {
+    text-align: center;
+    margin-top: 360px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.judulsma {
+    text-align: center;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    border-bottom: 2px solid black ;
+}
+
+.tpsma {
+    text-align: center;
+    margin-top: 340px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.judulpengalaman {
+    text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   -webkit-text-fill-color: black;
+   -webkit-text-stroke: 1px white;
+   font-size: 45px;
+}
+.hrpengalaman {
+    width: 250px;
+    margin: 5px auto;
+    border: 1px solid white;
+}
+
+.kontener3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.judulkotak1 {
+    text-align: center;
+    font-size: 30px;
+}
+.judulkotak2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.kotak1 {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.kotak1:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.kotak1:active {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.kotak2 {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    background-color: white;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.kotak2:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.kotak2:active {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.ulkotak1 {
+    line-height: 25px;
+}
+.ulkotak2 {
+    line-height: 25px;
+}
+
+.paralak1 {
+    background-image: url(./img/gunung4.jpg);
+    padding-top: 150px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.paralak2 {
+    background-image: url(./img/gunung4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+    padding-top: 50px;
+}
+.paralak3 {
+    background-image: url(./img/gunung2.jpg);
+    padding-top: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+
+
+.paralak4 {
+    background-image: url(./img/gunung2.jpg);
+    padding-top: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:800px;
+}
+
+.footer {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.h1footer {
+    font-size: 30px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.listicon {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+
+@media screen and (max-width: 302px) {
+    .tentang {
+        width: 150px;
+        height: auto;
+        font-size: 1px;
+        font-family: sans-serif;
+        font-weight: 600;
+        padding: 30px;
+    }
+    .tentang:hover {
+        width: 220px;
+        height: auto;
+        font-size: 1px;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .h1tentang {
+        font-size: 25px;
+    }
+
+    .tentang p {
+        font-size: 15px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .tentang hr {
+        width: 100px;
+    }
+
+    .biodata {
+        width: 150px;
+        font-size: 15px;
+        padding: 30px;
+        height: auto;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    .biodata:hover {
+        width: 220px;
+    }
+
+    .biodata:active {
+        width: 220px;
+    }
+
+    .biodata h2 {
+        font-size: 25px;
+    }
+
+    .biodata p {
+        line-height: 18px;
+    }
+
+    .hrbiodata {
+        border: 1px solid black;
+        width: 150px;
+        margin: 0px auto;
+    
+    }
+
+    .ulbiodata {
+        font-weight: 700;
+        font-family: sans-serif;
+        padding-left: 0px;
+        
+    }
+
+    .ulbiodata li {
+        font-size: 12px;
+        
+    }
+    
+    .hrhobi {
+        border: 1px solid black;
+        width: 70px;
+        margin: 0px auto;
+    }
+
+    .p2 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .p3  {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .navigasi {
+        height: auto;
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+    }
+
+    .ulnavbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .listicon {
+        padding-right: 15px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+    .firstname {
+        color: white;
+        font-weight: 500;
+        padding: 10px;
+        padding-right: 5px;
+        font-size: 22px;
+    }
+    
+    .lastname {
+        padding-top: 10px;
+        padding-left: 0px;
+        color: greenyellow;
+        font-size: 22px;
+    }
+
+    .brand {
+        padding: 5px;
+    }
+
+    .judulpendidikan {
+        padding-left: 22px;
+    }
+
+    .hrpendidikan {
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .paralak2 {
+        background-image: url(./img/gunung4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 1500px;
+        padding-top: 50px;
+    }
+
+    .foto {
+        width: 180px;
+        height: 200px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        border: 3px solid black;
+        border-radius: 20px;
+        -webkit-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+    box-shadow: 3px 5px 25px 0px rgba(0, 0, 0, 0.99);
+    }
+    .foto:hover {
+        -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+        transition: .5s;
+    }
+
+    .sd {
+        width: 200px;
+        height: auto;
+        margin: 50px auto;
+        background-image: url(./img/sd1.png);
+        background-size: cover;
+        border-radius: 20px;
+        background-attachment: fixed;
+    }
+    .sd:hover {
+        width: 300px;
+        height: auto;
+        transition: all .3s ease-in-out;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .tpsd {
+        padding-bottom: 20px;
+    }
+    .smp {
+        width: 200px;
+        height: auto;
+        margin: 50px auto;
+        background-image: url(./img/smp1.png);
+        background-size: cover;
+        border-radius: 20px;
+        background-attachment: fixed;
+    }
+
+    .smp:hover {
+        width: 300px;
+        height: auto;
+        transition: all .3s ease-in-out;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .tpsmp {
+        padding-bottom: 20px;
+    }
+
+    .sma {
+        width: 200px;
+        height: auto;
+        margin: 50px auto;
+        background-image: url(./img/alfalah.png);
+        background-size: cover;
+        border-radius: 20px;
+        background-attachment: fixed;
+    }
+    .sma:hover {
+        width: 300px;
+        height: auto;
+        transition: all .3s ease-in-out;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .tpsma {
+        padding-bottom: 20px;
+    }
+
+    .judulpengalaman {
+        font-size: 40px;
+    }
+
+    .kotak1 {
+        width: 300px;
+        height: auto;
+    }
+    .kotak2 {
+        width: 300px;
+        height: auto;
+    }
+
+    .paralak4 {
+        height: 1000px;
+    }
+}
